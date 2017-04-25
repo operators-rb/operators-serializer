@@ -9,11 +9,6 @@ Add this line to your application's Gemfile:
 gem 'operators-serializer'
 ```
 
-And then execute:
-
-    $ bundle install
-
-
 ## Usage
 
 
