@@ -11,11 +11,8 @@ gem 'operators-serializer'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
-Or install it yourself as:
-
-    $ gem install operators-serializer
 
 ## Usage
 
