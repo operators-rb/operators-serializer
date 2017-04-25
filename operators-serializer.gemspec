@@ -5,12 +5,12 @@ require 'operators/serializer/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "operators-serializer"
-  spec.version       = Operators::Serializer::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Kirill Shevchenko"]
   spec.email         = ["hello@kirillshevch.com"]
 
-  spec.summary       = %q{operators-serializer}
-  spec.description   = %q{operators-serializer}
+  spec.summary       = %q{You don’t need Active Model Serializers}
+  spec.description   = spec.summary
   spec.homepage      = "http://operators-rb.org"
   spec.license       = "MIT"
 
@@ -23,4 +23,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.5.0"
+  spec.add_development_dependency "byebug", "~> 3.5.0"
 end
