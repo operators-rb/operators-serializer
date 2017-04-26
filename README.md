@@ -1,6 +1,7 @@
 # Operators::Serializer
 
 [![Code Climate](https://codeclimate.com/github/operators-rb/operators-serializer/badges/gpa.svg)](https://codeclimate.com/github/operators-rb/operators-serializer)
+[![CircleCI](https://circleci.com/gh/operators-rb/operators-serializer.svg?style=shield&circle-token=9542c2160ff69e57c6e71e2cd2d8ebfb5ec2abb4)](https://circleci.com/gh/operators-rb/operators-serializer)
 
 ## Installation
 
@@ -27,7 +28,6 @@ end
 **Usage in Rails controllers**
 ```ruby
 class UsersController < ApplicationController
-
   def index
     @users = UserSerializer.serialize_collection(User.all)
   end
