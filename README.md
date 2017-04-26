@@ -1,5 +1,6 @@
 # Operators::Serializer
 
+[![Code Climate](https://codeclimate.com/github/operators-rb/operators-serializer/badges/gpa.svg)](https://codeclimate.com/github/operators-rb/operators-serializer)
 
 ## Installation
 
