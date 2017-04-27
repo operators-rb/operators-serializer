@@ -1,5 +1,5 @@
-require "byebug"
-require "operators-serializer"
+require 'byebug'
+require 'operators-serializer'
 
 RSpec.configure do |config|
   config.order = :random
