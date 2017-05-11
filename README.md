@@ -35,7 +35,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = UserSerializer.new(User.find_by(id: params[:id])).as_json
+    @user = UserSerializer.new(User.find_by(id: params[:id]))
   end
 end
 ```
